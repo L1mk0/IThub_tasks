@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <label> 
+            <input type="text" id="title" placeholder="Введите название книги">
+        </label>
+        <label>
+            <input type="text" id="author" placeholder="Введите автора">
+        </label>
+        <button id="addBtn">Добавить</button>
+        <div id="error" class="error"></div>
+        <div class="meta">
+            В библиотеке <span id="counter">0</span> книг
+        </div>
+        <div class="grid" id="cards"></div>
+    </div>
+
+    <script src="dist/main.js"></script>
+</body>
+</html>
